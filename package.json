@@ -1,0 +1,30 @@
+{
+  "name": "add-newlines",
+  "version": "0.1.0",
+  "description": "Add newlines to the end of files that don't yet have them",
+  "main": "source/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perry-mitchell/add-newlines.git"
+  },
+  "keywords": [
+    "newline",
+    "return",
+    "append"
+  ],
+  "author": "Perry Mitchell <perry@perrymitchell.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perry-mitchell/add-newlines/issues"
+  },
+  "homepage": "https://github.com/perry-mitchell/add-newlines#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "glob": "^7.1.1",
+    "is-file": "^1.0.0",
+    "minimist": "^1.2.0"
+  }
+}
