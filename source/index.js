@@ -14,7 +14,7 @@ const argv = require("minimist")(process.argv.slice(2));
 // ** Defaults
 // **
 
-const NEWLINE_EOF = /(\r\n|\n)+$/;
+const NEWLINE_EOF = /(\r\n|\n)*$/;
 
 let newlineChar = "\n";
 
