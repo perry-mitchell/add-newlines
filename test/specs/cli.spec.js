@@ -17,14 +17,12 @@ describe("cli", function() {
     }
 
     beforeEach(function() {
-        // try {
-            rimraf(TEMPDIR);
-        // } catch (err) {}
+        rimraf(TEMPDIR);
         execa("cp", ["-r", RESOURCES, TEMPDIR]);
     });
 
     afterEach(function() {
-        // rimraf(TEMPDIR);
+        rimraf(TEMPDIR);
     });
 
     it("keeps new lines that already exist", function() {
