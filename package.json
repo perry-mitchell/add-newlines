@@ -1,6 +1,6 @@
 {
   "name": "add-newlines",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Add newlines to the end of files that don't yet have them",
   "main": "source/index.js",
   "scripts": {
