@@ -4,7 +4,7 @@
   "description": "Add newlines to the end of files that don't yet have them",
   "main": "source/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r test/specs/index.js test/specs/**/*.spec.js"
   },
   "bin": {
     "addnl": "./source/index.js"
@@ -29,5 +29,11 @@
     "glob": "^7.1.1",
     "is-file": "^1.0.0",
     "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "execa": "^0.6.3",
+    "mocha": "^3.3.0",
+    "rimraf": "^2.6.1"
   }
 }
